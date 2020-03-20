@@ -1,9 +1,23 @@
 .sidebar {
     width: 380px;
+    font-size: 0;
 
     &__header {
         background: darken($greyOne, 10%);
         text-align: center;
+        animation: fadeIn 1s infinite;
+
+        @keyframes fadeIn {
+            0% {
+                border-top: 5px solid darken($greyOne, 20%);
+            }
+            50% {
+                border-top: 5px solid $green;
+            }
+            100% {
+                border-top: 5px solid darken($greyOne, 20%);
+            }
+        }
     }
 
     &__header__title {
@@ -15,6 +29,6 @@
         font-weight: $font-weight--semibold;
         line-height: 0;
         padding: 35px 0;
-        border-top: 5px solid darken($greyOne, 20%);
+        border-top: 5px solid transparent;
     }
 }

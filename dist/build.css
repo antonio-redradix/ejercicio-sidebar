@@ -36,10 +36,29 @@ html {
   background: #3f3d3d; }
 
 .sidebar {
-  width: 380px; }
+  width: 380px;
+  font-size: 0; }
   .sidebar__header {
     background: #252424;
-    text-align: center; }
+    text-align: center;
+    -webkit-animation: fadeIn 1s infinite;
+            animation: fadeIn 1s infinite; }
+
+@-webkit-keyframes fadeIn {
+  0% {
+    border-top: 5px solid #0b0b0b; }
+  50% {
+    border-top: 5px solid #32f255; }
+  100% {
+    border-top: 5px solid #0b0b0b; } }
+
+@keyframes fadeIn {
+  0% {
+    border-top: 5px solid #0b0b0b; }
+  50% {
+    border-top: 5px solid #32f255; }
+  100% {
+    border-top: 5px solid #0b0b0b; } }
   .sidebar__header__title {
     color: #fff;
     font-family: "Montserrat", sans-serif;
@@ -49,7 +68,7 @@ html {
     font-weight: 600;
     line-height: 0;
     padding: 35px 0;
-    border-top: 5px solid #0b0b0b; }
+    border-top: 5px solid transparent; }
 
 .sidebar__nav__item {
   display: flex;

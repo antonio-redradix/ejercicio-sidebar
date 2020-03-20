@@ -1,0 +1,20 @@
+.sidebar {
+    width: 380px;
+
+    &__header {
+        background: darken($greyOne, 10%);
+        text-align: center;
+    }
+
+    &__header__title {
+        color: $white;
+        font-family: $primary-font;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+        font-size: 21px;
+        font-weight: $font-weight--semibold;
+        line-height: 0;
+        padding: 35px 0;
+        border-top: 5px solid darken($greyOne, 20%);
+    }
+}

@@ -66,10 +66,13 @@ html {
     background: #595656;
     border-left: 5px solid #32f255;
     cursor: pointer; }
+    .sidebar__nav__item:hover .sidebar__nav__item__icon {
+      transform: rotate(15deg); }
   .sidebar__nav__item__icon {
     color: #fff;
     font-size: 25px;
-    margin-right: 20px; }
+    margin-right: 20px;
+    transition-duration: .8s; }
   .sidebar__nav__item__text {
     color: #fff;
     font-family: "Montserrat", sans-serif;

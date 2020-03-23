@@ -1,0 +1,92 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.contenedor {
+  background-color: black;
+  width: 20vw;
+  height: 70vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  border: solid 2px #3b3b3b; }
+  .contenedor .text-principal {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+    font-family: lato;
+    font-size: 30px;
+    padding: 30px 10px 30px 10px;
+    border-bottom: double 5px #3b3b3b;
+    border-top: double 5px #3b3b3b; }
+
+.inside {
+  background-color: #252525; }
+
+.box {
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: solid 3px #3b3b3b;
+  box-sizing: border-box; }
+  .box a {
+    display: inline-block;
+    color: white;
+    text-decoration: none; }
+  .box img {
+    position: relative;
+    top: 10px;
+    max-width: 30px;
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 20px; }
+  .box:hover {
+    background-color: grey;
+    border-left: solid 8px green; }
+
+
+/*# sourceMappingURL=build.css.map*/

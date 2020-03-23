@@ -1,0 +1,59 @@
+@import 'reset';
+
+.contenedor {
+  background-color: black;
+  width: 20vw; 
+  height: 70vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  border: solid 2px rgb(59, 59, 59);
+
+ .text-principal{
+      text-transform: uppercase;
+      letter-spacing: 10px;
+      text-align: center;
+      font-family: lato;
+      font-size: 30px;
+      padding: 30px 10px 30px 10px;
+      border-bottom: double 5px rgb(59, 59, 59);
+      border-top: double 5px rgb(59, 59, 59);
+    }
+}
+
+.inside{
+  background-color: rgb(37, 37, 37);
+ 
+}
+
+.box{
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: solid 3px rgb(59, 59, 59);
+  box-sizing: border-box;
+
+    a{
+      display: inline-block;
+      color: white;
+      text-decoration: none
+
+    }
+    img{
+      position: relative;
+      top: 10px;
+      max-width: 30px;
+      display: inline-block;
+      padding-left: 40px;
+      padding-right: 20px;  
+    }
+    &:hover{
+      background-color: grey;
+      border-left: solid 8px green;
+    }
+    
+}
+
+
+

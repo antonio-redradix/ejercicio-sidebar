@@ -1,5 +1,10 @@
 .sidebar {
     &__nav{
+        &__list {
+            @media(min-width: $large) {
+                display: flex
+            }
+        }
         &__item {
             display: flex;
             align-items: center;
@@ -33,6 +38,10 @@
                 color: $white;
                 font-family: $primary-font;
                 font-size: 17px;
+            }
+
+            @media(min-width: $large) {
+                flex-basis: calc(100% / 6);
             }
         }
     }

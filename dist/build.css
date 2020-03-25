@@ -38,6 +38,9 @@ html {
 .sidebar {
   width: 380px;
   font-size: 0; }
+  @media (min-width: 1200px) {
+    .sidebar {
+      width: 1200px; } }
   .sidebar__header {
     background: #252424;
     text-align: center;
@@ -59,6 +62,9 @@ html {
     border-top: 5px solid #32f255; }
   100% {
     border-top: 5px solid #0b0b0b; } }
+    @media (min-width: 1200px) {
+      .sidebar__header {
+        display: none; } }
   .sidebar__header__title {
     color: #fff;
     font-family: "Montserrat", sans-serif;
@@ -69,6 +75,10 @@ html {
     line-height: 0;
     padding: 35px 0;
     border-top: 5px solid transparent; }
+
+@media (min-width: 1200px) {
+  .sidebar__nav__list {
+    display: flex; } }
 
 .sidebar__nav__item {
   display: flex;
@@ -96,6 +106,9 @@ html {
     color: #fff;
     font-family: "Montserrat", sans-serif;
     font-size: 17px; }
+  @media (min-width: 1200px) {
+    .sidebar__nav__item {
+      flex-basis: calc(100% / 6); } }
 
 
 /*# sourceMappingURL=build.css.map*/

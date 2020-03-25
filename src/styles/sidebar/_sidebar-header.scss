@@ -2,6 +2,10 @@
     width: 380px;
     font-size: 0;
 
+    @media(min-width: $large) {
+        width: 1200px;
+    }
+
     &__header {
         background: darken($greyOne, 10%);
         text-align: center;
@@ -17,6 +21,10 @@
             100% {
                 border-top: 5px solid darken($greyOne, 20%);
             }
+        }
+
+        @media(min-width: $large) {
+            display: none
         }
     }
 

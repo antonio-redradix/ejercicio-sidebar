@@ -1,15 +1,15 @@
 .sidebar {
-    width: 380px;
     font-size: 0;
+    width: 380px;
 
     @media(min-width: $large) {
         width: 1200px;
     }
 
     &__header {
+        animation: fadeIn 1s infinite;
         background: darken($greyOne, 10%);
         text-align: center;
-        animation: fadeIn 1s infinite;
 
         @keyframes fadeIn {
             0% {
@@ -29,14 +29,14 @@
     }
 
     &__header__title {
+        border-top: 5px solid transparent;
         color: $white;
         font-family: $primary-font;
-        text-transform: uppercase;
-        letter-spacing: 8px;
         font-size: 21px;
         font-weight: $font-weight--semibold;
+        letter-spacing: 8px;
         line-height: 0;
         padding: 35px 0;
-        border-top: 5px solid transparent;
+        text-transform: uppercase;
     }
 }

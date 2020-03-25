@@ -27,9 +27,15 @@
             }
 
             @media(min-width: $large) {
-                border-left: 0;
                 border-bottom: 5px solid transparent;
+                border-left: 0;
+                border-right: 2px solid darken($greyOne, 20%);
+                padding-top: 25px;
                 transition: all .8s ease-in-out;
+                
+                &:last-child {
+                    border-right: 0;
+                }
 
                 &:hover {
                     border-left: 0;

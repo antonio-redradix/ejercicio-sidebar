@@ -98,9 +98,13 @@ html {
       transform: rotate(15deg); }
   @media (min-width: 1200px) {
     .sidebar__nav__item {
-      border-left: 0;
       border-bottom: 5px solid transparent;
+      border-left: 0;
+      border-right: 2px solid #0b0b0b;
+      padding-top: 25px;
       transition: all .8s ease-in-out; }
+      .sidebar__nav__item:last-child {
+        border-right: 0; }
       .sidebar__nav__item:hover {
         border-left: 0;
         border-bottom: 5px solid #32f255; } }

@@ -88,5 +88,17 @@ table {
     background-color: grey;
     border-left: solid 8px green; }
 
+@media only screen and (min-width: 900px) {
+  .text-principal {
+    display: none; }
+  .contenedor {
+    width: 1200px;
+    height: 50px; }
+  .inside {
+    width: 100%; }
+  .box {
+    display: inline-block;
+    max-width: 195px; } }
+
 
 /*# sourceMappingURL=build.css.map*/

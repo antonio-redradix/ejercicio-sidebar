@@ -58,5 +58,16 @@
   .text-principal{
       display: none;
   }
+  .contenedor{
+    width: 1200px;
+    height: 50px;
+  }
+  .inside{
+    width: 100%;
+  }
+  .box{
+    display: inline-block;
+    max-width: 195px;
+  }
 }
 

@@ -2,7 +2,7 @@
 
 .contenedor {
   background-color: black;
-  width: 20vw; 
+  width: 30vw; 
   height: 70vh;
   position: absolute;
   top: 50%;
@@ -68,6 +68,8 @@
   .box{
     display: inline-block;
     max-width: 195px;
+    border-right: solid 3px grey;
+    box-sizing: border-box;
   }
 }
 

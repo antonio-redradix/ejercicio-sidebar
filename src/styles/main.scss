@@ -1,24 +1,5 @@
 @import 'reset';
 
-
-* {
-    transform: translate(10px, 20px);
-}
-
-::placeholder {
-  color: gray;
-}
-
-.image {
-  background-image: url('https://camo.githubusercontent.com/f265315f74ed08b94e473cd7f6f04c291e59a8e2/687474703a2f2f706f73746373732e6769746875622e696f2f6175746f70726566697865722f6c6f676f2e737667');
-}
-@media (min-resolution: 2dppx) {
-  .image {
-    background-image: url('https://camo.githubusercontent.com/f265315f74ed08b94e473cd7f6f04c291e59a8e2/687474703a2f2f706f73746373732e6769746875622e696f2f6175746f70726566697865722f6c6f676f2e737667');
-  }
-}
-
-
 body{
   background-color: #434343;
   font-family: sans-serif;
@@ -59,13 +40,10 @@ nav{
   }
 }
 
-@media screen and (min-width: 900px){
+@media screen and (min-width: 1024px){
   
   nav{
-    position: absolute ;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) ;
+    text-align: center;
     width: 100%;
 
     .list-head{
@@ -74,6 +52,11 @@ nav{
     
     ul{
       display: -webkit-inline-box;
+
+      .list-option{
+        padding-right: 60px;
+        text-align: left;
+      }
     }
   }
 

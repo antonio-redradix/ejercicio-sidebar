@@ -1,6 +1,7 @@
 @import "reset";
 $colorfondo: #434343;
 $letrascolor: white;
+<<<<<<< HEAD
 
 
 
@@ -75,9 +76,57 @@ $letrascolor: white;
     .img-menu,
     .w3-button{
           font-size: 25px;
+=======
+.imagenes{
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+}
+
+
+
+.bloque-menu{
+  width: 300px;
+  height: 340px;
+  background-color: $colorfondo;
+  color: $letrascolor;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.img-menu{
+  @extend .imagenes;
+ 
+  
+}
+.item-menu{
+  color: $letrascolor;
+  text-decoration:none;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.img-menu,
+    .w3-button{
+          font-size: 20px;
+>>>>>>> 1d165c5042f854495a346bc5fc57bcdca807b85c
           padding: 10px;
           padding: 0px;
           margin-top: 10px;
           margin-left: 20px;
 }
+<<<<<<< HEAD
     }
+=======
+
+.bloques{
+  border-top: 2px solid black ;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+.bloques:hover {
+  background-color: grey;
+}
+>>>>>>> 1d165c5042f854495a346bc5fc57bcdca807b85c

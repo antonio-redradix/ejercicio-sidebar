@@ -60,20 +60,32 @@ table {
 
 .bloque-menu {
   width: 300px;
+<<<<<<< HEAD
   height: 336px;
+=======
+  height: 340px;
+>>>>>>> 1d165c5042f854495a346bc5fc57bcdca807b85c
   background-color: #434343;
   color: white;
   margin-top: 10px;
   margin-left: 20px;
 }
 
+<<<<<<< HEAD
 .bloque--menu {
+=======
+.item-menu {
+>>>>>>> 1d165c5042f854495a346bc5fc57bcdca807b85c
   color: white;
   text-decoration: none;
   text-align: center;
   margin-top: 20px;
   padding: 20px;
+<<<<<<< HEAD
   font-size: 22px;
+=======
+  font-size: 30px;
+>>>>>>> 1d165c5042f854495a346bc5fc57bcdca807b85c
 }
 
 .img-menu,
@@ -85,6 +97,7 @@ table {
   margin-left: 20px;
 }
 
+<<<<<<< HEAD
 .bloque {
   border-top: 2px solid black;
   padding: 0px;
@@ -121,6 +134,16 @@ table {
     margin-top: 10px;
     margin-left: 20px;
   }
+=======
+.bloques {
+  border-top: 2px solid black;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.bloques:hover {
+  background-color: grey;
+>>>>>>> 1d165c5042f854495a346bc5fc57bcdca807b85c
 }
 
 /*# sourceMappingURL=main.css.map */
